@@ -1,1 +1,8 @@
-# Vending-Machine
+# Vending-Machine sales 
+_Source: https://www.kaggle.com/datasets/awesomeasingh/vending-machine-sales/code
+
+Check this other site for additional documentation about the variables: https://www.kaggle.com/datasets/thedevastator/employee-attrition-and-factors/data
+
+Encoding of some of the columns: This file has the following attributes
+
+Status : Represents if the machine data is successfully processed Device ID : Unique electronic identifier ( also called as ePort) for the vending machine. A machine is allocated a unique ePrt * device Location : Indicates location of the vending machine Machine : User-friendly machine name Product : Product vended from the machine Category : Carbonated / Food / Non-carbonated / Water Transaction : Unique identifier for every transaction TransDate : The Date & time of transaction Type : Type of transaction ( Cash / Credit ) RCoil : Coil # used to vend the product RPrice : Price of the Product RQty : Quantity sold. This is usually one but machines can be configured to sell more items in a single transaction MCoil : Mapped coil # used to vend the product ( from toucan ) MPrice : Mapped price of the Product MQty : Mapped quantity sold. This is usually one but machines can be configured to sell more items in a single transaction LineTotal : Total sale per transaction TransTotal : Represents total of all transactions that will show up on the Credit Card. A user could vend a drink for  3andasnackfor 1.5 making a total of $4.50 Prcd Date : Date when the transaction was processed by SeedLive ( an entity that is used to aggregate all transactions electronically ) ```
